@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Net.Http;
 using System.Windows;
+using Newtonsoft.Json;
 
 namespace DotNetWpfPrimer
 {
@@ -42,8 +43,9 @@ namespace DotNetWpfPrimer
             HttpContent content = response.Content;
             {
                 string result = await content.ReadAsStringAsync();
+                RandomJoke randomJoke  = JsonConvert.DeserializeObject<RandomJoke>( result );
 
-                AppendTextField( result );
+                AppendTextField( randomJoke.value.joke );
             }
         }
 
