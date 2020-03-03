@@ -1,0 +1,15 @@
+
+#macOS
+.DS_Store
+
+# IntelliJ
+.idea
+
+# Visual Studio Code
+.vscode
+
+# DotNet build output
+bin
+
+# DotNet debug objects ?
+obj/Debug/
