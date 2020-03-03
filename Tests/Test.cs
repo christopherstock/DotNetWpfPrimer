@@ -1,14 +1,20 @@
 using NUnit.Framework;
 
-namespace Prime.UnitTests.Services
+namespace DotNetWpfPrimer.Tests
 {
     [TestFixture]
-    public class PrimeService_IsPrimeShould
+    public class Test
     {
         [Test]
-        public void IsPrime_InputIs1_ReturnFalse()
+        public void Test1()
         {
             Assert.IsFalse( false, "Test 1" );
+        }
+
+        [Test]
+        public void Test2()
+        {
+            Assert.IsFalse( true, "Test 2" );
         }
     }
 }
