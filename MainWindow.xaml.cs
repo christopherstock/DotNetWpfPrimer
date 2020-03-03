@@ -36,9 +36,9 @@ namespace DotNetWpfPrimer
             Console.Out.WriteLine( "MainWindow.MainButton_OnClick being invoked" );
 
             // load joke via API
-            string page = "http://en.wikipedia.org/";
+            string URL_ICND = "http://api.icndb.com/jokes/random";
             HttpClient client = new HttpClient();
-            HttpResponseMessage response = await client.GetAsync(page);
+            HttpResponseMessage response = await client.GetAsync( URL_ICND );
             HttpContent content = response.Content;
             {
                 string result = await content.ReadAsStringAsync();
