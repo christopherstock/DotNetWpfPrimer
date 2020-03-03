@@ -56,8 +56,8 @@ namespace DotNetWpfPrimer
         ***************************************************************************************************************/
         private void AppendTextField( string msg )
         {
-            this.MainTextBlock.Text += ( msg + "\n" );
-            this.MainScroller.ScrollToEnd();
+            MainTextBlock.Text += ( msg + "\n" );
+            MainScroller.ScrollToEnd();
         }
     }
 }
