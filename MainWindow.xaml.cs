@@ -1,20 +1,30 @@
-﻿using System.Windows;
+﻿using System;
+using System.Windows;
 
 namespace DotNetWpfPrimer
 {
-    /// <summary>
-    /// Interaction logic for MainWindow.xaml
-    /// </summary>
+    /*******************************************************************************************************************
+    *    Represents the application's main window.
+    *******************************************************************************************************************/
     public partial class MainWindow : Window
     {
+        /*******************************************************************************************************************
+        *    The default constructor initializes this and all sub-components.
+        ************************************************************************************MainButton_OnClick*************/
         public MainWindow()
         {
-            this.Title  = "Test Title 1";
-            this.Width  = 800;
-            this.Height = 600;
-
+            Console.Out.WriteLine( "MainWindow() being invoked" );
 
             InitializeComponent();
+        }
+
+        private void Window_Loaded( Object sender, RoutedEventArgs args )
+        {
+        }
+
+        private void MainButton_OnClick( object sender, RoutedEventArgs e )
+        {
+            Console.Out.WriteLine( "MainButton clicked" );
         }
     }
 }

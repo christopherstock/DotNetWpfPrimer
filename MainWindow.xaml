@@ -1,11 +1,35 @@
-﻿<Window x:Class="DotNetWpfPrimer.MainWindow"
-        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
-        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
-        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:local="clr-namespace:DotNetWpfPrimer"
-        mc:Ignorable="d">
+﻿<Window
+    x:Class="DotNetWpfPrimer.MainWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:local="clr-namespace:DotNetWpfPrimer"
+    mc:Ignorable="d"
+
+    Title="DotNetWpfPrimer, v.0.1"
+    Width="800"
+    Height="600"
+
+    >
+
     <Grid>
 
+        <TextBlock
+            x:Name="MainTextBlock">
+        </TextBlock>
+
+        <Button
+            x:Name="MainButton"
+            Height="75"
+            VerticalAlignment="Top"
+            Margin="50"
+            IsEnabled="True"
+            Click="MainButton_OnClick"
+        >
+            Request a joke
+        </Button>
+
     </Grid>
+
 </Window>
