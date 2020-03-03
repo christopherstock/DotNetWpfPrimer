@@ -1,0 +1,17 @@
+C:\Users\stock\workspaces\dotnet\DotNetWpfPrimer\bin\Debug\netcoreapp3.0\DotNetWpfPrimer.exe
+C:\Users\stock\workspaces\dotnet\DotNetWpfPrimer\bin\Debug\netcoreapp3.0\DotNetWpfPrimer.deps.json
+C:\Users\stock\workspaces\dotnet\DotNetWpfPrimer\bin\Debug\netcoreapp3.0\DotNetWpfPrimer.runtimeconfig.json
+C:\Users\stock\workspaces\dotnet\DotNetWpfPrimer\bin\Debug\netcoreapp3.0\DotNetWpfPrimer.runtimeconfig.dev.json
+C:\Users\stock\workspaces\dotnet\DotNetWpfPrimer\bin\Debug\netcoreapp3.0\DotNetWpfPrimer.dll
+C:\Users\stock\workspaces\dotnet\DotNetWpfPrimer\bin\Debug\netcoreapp3.0\DotNetWpfPrimer.pdb
+C:\Users\stock\workspaces\dotnet\DotNetWpfPrimer\obj\Debug\netcoreapp3.0\DotNetWpfPrimer.csprojAssemblyReference.cache
+C:\Users\stock\workspaces\dotnet\DotNetWpfPrimer\obj\Debug\netcoreapp3.0\MainWindow.g.cs
+C:\Users\stock\workspaces\dotnet\DotNetWpfPrimer\obj\Debug\netcoreapp3.0\App.g.cs
+C:\Users\stock\workspaces\dotnet\DotNetWpfPrimer\obj\Debug\netcoreapp3.0\DotNetWpfPrimer_MarkupCompile.cache
+C:\Users\stock\workspaces\dotnet\DotNetWpfPrimer\obj\Debug\netcoreapp3.0\DotNetWpfPrimer_MarkupCompile.lref
+C:\Users\stock\workspaces\dotnet\DotNetWpfPrimer\obj\Debug\netcoreapp3.0\MainWindow.baml
+C:\Users\stock\workspaces\dotnet\DotNetWpfPrimer\obj\Debug\netcoreapp3.0\DotNetWpfPrimer.g.resources
+C:\Users\stock\workspaces\dotnet\DotNetWpfPrimer\obj\Debug\netcoreapp3.0\DotNetWpfPrimer.AssemblyInfoInputs.cache
+C:\Users\stock\workspaces\dotnet\DotNetWpfPrimer\obj\Debug\netcoreapp3.0\DotNetWpfPrimer.AssemblyInfo.cs
+C:\Users\stock\workspaces\dotnet\DotNetWpfPrimer\obj\Debug\netcoreapp3.0\DotNetWpfPrimer.dll
+C:\Users\stock\workspaces\dotnet\DotNetWpfPrimer\obj\Debug\netcoreapp3.0\DotNetWpfPrimer.pdb
