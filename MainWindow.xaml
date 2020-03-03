@@ -15,9 +15,18 @@
 
     <Grid>
 
-        <TextBlock
-            x:Name="MainTextBlock">
-        </TextBlock>
+        <ScrollViewer
+            x:Name="MainScroller"
+            Height="200"
+            Margin="50"
+        >
+            <TextBlock
+                x:Name="MainTextBlock"
+                Background="gray"
+                Foreground="white"
+                Padding="10"
+            />
+        </ScrollViewer>
 
         <Button
             x:Name="MainButton"

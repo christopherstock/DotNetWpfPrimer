@@ -2,15 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="50f089b7-9d70-49f1-9e3e-a694ecb4c321" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.DotNetWpfPrimer.dir/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.DotNetWpfPrimer.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DotNetWpfPrimer.dir/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/App.xaml" beforeDir="false" afterPath="$PROJECT_DIR$/App.xaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/App.xaml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/App.xaml.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MainWindow.xaml" beforeDir="false" afterPath="$PROJECT_DIR$/MainWindow.xaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MainWindow.xaml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MainWindow.xaml.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp3.0/DotNetWpfPrimer.dll" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/netcoreapp3.0/DotNetWpfPrimer.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp3.0/DotNetWpfPrimer.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/netcoreapp3.0/DotNetWpfPrimer.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp3.0/App.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/netcoreapp3.0/App.g.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp3.0/DotNetWpfPrimer.dll" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/netcoreapp3.0/DotNetWpfPrimer.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp3.0/DotNetWpfPrimer.g.resources" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/netcoreapp3.0/DotNetWpfPrimer.g.resources" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp3.0/DotNetWpfPrimer.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/netcoreapp3.0/DotNetWpfPrimer.pdb" afterDir="false" />
@@ -34,6 +30,7 @@
     </option>
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/E8E832CD-B6BA-48DF-BD51-C53707CE24DD/0/TextBlock.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/MainWindow.xaml" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/E8E832CD-B6BA-48DF-BD51-C53707CE24DD/0/Window.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/App.xaml" root0="FORCE_HIGHLIGHTING" />
@@ -46,8 +43,8 @@
       <list>
         <option value="$PROJECT_DIR$/App.xaml" />
         <option value="$PROJECT_DIR$/App.xaml.cs" />
-        <option value="$PROJECT_DIR$/MainWindow.xaml.cs" />
         <option value="$PROJECT_DIR$/MainWindow.xaml" />
+        <option value="$PROJECT_DIR$/MainWindow.xaml.cs" />
       </list>
     </option>
   </component>
@@ -72,7 +69,8 @@
     <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.splitter.main.proportions" value="0.3" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.smartKeys_rider" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="preferences.editor" />
   </component>
   <component name="RunManager">
     <configuration name="DotNetWpfPrimer" type="DotNetProject" factoryName=".NET Project">
@@ -104,8 +102,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1583243212335</updated>
-      <workItem from="1583243214421" duration="6037000" />
+      <workItem from="1583243214421" duration="7447000" />
     </task>
+    <task id="LOCAL-00001" summary="Added Button and Click callback.">
+      <created>1583250398271</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1583250398271</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -124,31 +130,43 @@
       </map>
     </option>
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Added Button and Click callback." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Button and Click callback." />
+  </component>
   <component name="WindowStateProjectService">
     <state x="414" y="167" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1583243315937">
       <screen x="0" y="0" width="1920" height="1019" />
     </state>
     <state x="414" y="167" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1019@0.0.1920.1019" timestamp="1583243315937" />
-    <state width="1877" height="229" key="GridCell.Tab.0.bottom" timestamp="1583250330424">
+    <state x="387" y="207" width="1139" height="651" key="CommitChangelistDialog2" timestamp="1583250397328">
       <screen x="0" y="0" width="1920" height="1019" />
     </state>
-    <state width="1877" height="229" key="GridCell.Tab.0.bottom/0.0.1920.1019@0.0.1920.1019" timestamp="1583250330424" />
-    <state width="1877" height="229" key="GridCell.Tab.0.center" timestamp="1583250330424">
+    <state x="387" y="207" width="1139" height="651" key="CommitChangelistDialog2/0.0.1920.1019@0.0.1920.1019" timestamp="1583250397328" />
+    <state width="1877" height="229" key="GridCell.Tab.0.bottom" timestamp="1583251651424">
       <screen x="0" y="0" width="1920" height="1019" />
     </state>
-    <state width="1877" height="229" key="GridCell.Tab.0.center/0.0.1920.1019@0.0.1920.1019" timestamp="1583250330424" />
-    <state width="1877" height="229" key="GridCell.Tab.0.left" timestamp="1583250330424">
+    <state width="1877" height="229" key="GridCell.Tab.0.bottom/0.0.1920.1019@0.0.1920.1019" timestamp="1583251651424" />
+    <state width="1877" height="229" key="GridCell.Tab.0.center" timestamp="1583251651424">
       <screen x="0" y="0" width="1920" height="1019" />
     </state>
-    <state width="1877" height="229" key="GridCell.Tab.0.left/0.0.1920.1019@0.0.1920.1019" timestamp="1583250330424" />
-    <state width="1877" height="229" key="GridCell.Tab.0.right" timestamp="1583250330424">
+    <state width="1877" height="229" key="GridCell.Tab.0.center/0.0.1920.1019@0.0.1920.1019" timestamp="1583251651424" />
+    <state width="1877" height="229" key="GridCell.Tab.0.left" timestamp="1583251651424">
       <screen x="0" y="0" width="1920" height="1019" />
     </state>
-    <state width="1877" height="229" key="GridCell.Tab.0.right/0.0.1920.1019@0.0.1920.1019" timestamp="1583250330424" />
-    <state x="463" y="155" key="SettingsEditor" timestamp="1583246011537">
+    <state width="1877" height="229" key="GridCell.Tab.0.left/0.0.1920.1019@0.0.1920.1019" timestamp="1583251651424" />
+    <state width="1877" height="229" key="GridCell.Tab.0.right" timestamp="1583251651424">
       <screen x="0" y="0" width="1920" height="1019" />
     </state>
-    <state x="463" y="155" key="SettingsEditor/0.0.1920.1019@0.0.1920.1019" timestamp="1583246011537" />
+    <state width="1877" height="229" key="GridCell.Tab.0.right/0.0.1920.1019@0.0.1920.1019" timestamp="1583251651424" />
+    <state x="463" y="155" key="SettingsEditor" timestamp="1583251194475">
+      <screen x="0" y="0" width="1920" height="1019" />
+    </state>
+    <state x="463" y="155" key="SettingsEditor/0.0.1920.1019@0.0.1920.1019" timestamp="1583251194475" />
+    <state x="451" y="247" width="925" height="528" key="Vcs.Push.Dialog.v2" timestamp="1583250405096">
+      <screen x="0" y="0" width="1920" height="1019" />
+    </state>
+    <state x="451" y="247" width="925" height="528" key="Vcs.Push.Dialog.v2/0.0.1920.1019@0.0.1920.1019" timestamp="1583250405096" />
     <state x="586" y="149" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1583248023944">
       <screen x="0" y="0" width="1920" height="1019" />
     </state>
