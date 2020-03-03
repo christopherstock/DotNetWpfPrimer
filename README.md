@@ -1,5 +1,5 @@
 
-# .NET 101
+# .NET Core 101
 
 ![.NET](https://github.com/christopherstock/DotNetPrimer/raw/master/_ASSET/readme/logo_dotnet.png)
 
@@ -98,19 +98,38 @@ Die folgenden Aufgaben können im Rahmen eines Coding Dojos oder im Workshopform
 ![NuGet](https://github.com/christopherstock/DotNetPrimer/raw/master/_ASSET/readme/logo_nuget.png)
 
 1. Installieren Sie die aktuellste Version des Pakets **Extended.Wpf.Toolkit** aus der **NuGet Gallery**.
+
 2. Erstellen Sie eine neue Klasse `AppFrame` und instanziieren Sie diese aus der der `main`-Methode der Klasse App.
  Rufen Sie danach die nicht-statischer Methode `show()` dieser Instanz auf.
+ 
 3. Erstellen und Konfektionieren Sie eine Instanz von `JFrame` im Konstruktor der Klasse `AppFrame` und fügen Sie dem
- `JFrame` eine Instanz von `JPanel` hinzu. 
+ `JFrame` eine Instanz von `JPanel` hinzu.
+  
 4. Erstellen und Konfektionieren Sie einen `JButton` und ein `JTextField` und fügen Sie die beiden Objekte zum
  `JPanel` hinzu. Das Textfeld soll `read-only` sein.
+ 
 5. Fügen Sie dem Button einen `ActionListener` hinzu, als der die Klasse `AppFrame` fungieren soll.
  Beim Klick auf den `JButton` soll vorerst eine Ausgabe auf der Ausgabekonsole erscheinen.
-6. Installieren Sie die aktuellste Version der Bibliothek `google-http-client` aus dem Maven Repository via Gradle.
+
+6. Installieren Sie die aktuellste Version der Bibliothek `Newtonsoft.json` aus dem NuGet Repository via CLI:
+`dotnet add package Newtonsoft.json`
+`dotnet add package Microsoft.NET.Test.Sdk`
+`dotnet add package NUnit3TestAdapter`
+
+7. Tests erstellen:
+`dotnet new nunit`
+
+8. Projektreferenz im Testprojekt hinzufügen
+`dotnet add reference ..\DotNetWpfPrimer.csproj`
+
 7. Erstellen Sie beim Klick auf den Button einen GET-Request zum Requesten eines zufälligen Witzes aus der 
  **International Chuck Norris Database** unter der URL `http://api.icndb.com/jokes/random`.
+ 
 8. Geben Sie den Response Body als String in der Konsole aus.
+
 9. Fügen Sie das automatische Parsen des Response Bodies in eine Instanz der neuen Klasse **JokeResponse** hinzu.
  Diese Datenklasse soll die Struktur des JSON-Response-Bodies repräsentieren.
+ 
 10. Zeigen Sie den Witz im Ausgabefeld an.
+
 11. Lagern Sie die Funktionalität des Request- und des Response-Handlings in eine neue Klasse API aus.
