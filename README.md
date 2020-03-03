@@ -114,6 +114,7 @@ Die folgenden Aufgaben können im Rahmen eines Coding Dojos oder im Workshopform
 6. Installieren Sie die aktuellste Version der Bibliothek `Newtonsoft.json` aus dem NuGet Repository via CLI:
 `dotnet add package Newtonsoft.json`
 `dotnet add package Microsoft.NET.Test.Sdk`
+`dotnet add package NUnit`
 `dotnet add package NUnit3TestAdapter`
 
 7. Tests erstellen:
