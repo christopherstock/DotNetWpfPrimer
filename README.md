@@ -1,12 +1,15 @@
 
-# .NET Core 101
+# Microsoft C# .NET Core 101
 
 ![.NET](https://github.com/christopherstock/DotNetPrimer/raw/master/_ASSET/readme/logo_dotnet.png)
 
-Dieser Workshop behandelt die wichtigsten Grundlagen des Microsoft .NET-Frameworks sowie der Programmiersprache C#. Mit Hilfe des DotNet CLI Befehls
- und des .NET-Paketmanagers **NuGet** erstellen wir ein .NET-Projekt von Grund auf. Entwickelt wird eine kleine UI-Anwendung, mit der
- auf Knopfdruck ein Witz aus der **International Chuck Norris Database** angefordert und in unserer Anwendung
- angezeigt wird. Für das Handling der HTTP-Request- u. -Responses soll eine moderne Bibliothek aus der **NuGet Gallery** verwendet werden.
+Dieser Workshop behandelt die wichtigsten Grundlagen des Microsoft .NET Core Frameworks sowie der Programmiersprache C#.
+ Mit Hilfe des CLI-Befehls **DotNet** aus dem .NET Core SDK und des .NET-Paketmanagers **NuGet** erstellen wir ein
+ .NET-Projekt von Grund auf. Entwickelt wird eine kleine UI-Anwendung unter Verwendung der WPF Bibliothek
+ (Windows Page Foundational classes (???) Framework), mit der auf Knopfdruck ein Witz aus der
+ **International Chuck Norris Database** angefordert und in einem TextFeld unserer UI-Anwendung angezeigt wird.
+ Für das Handling der HTTP-Request- u. -Responses soll eine moderne Bibliothek aus der **NuGet Gallery** verwendet werden.
+ Für das Abdecken unserer Klassen mit Tests werden Unit-Tests aus dem Test-Framework **NUnit** eingesetzt.
 
 <hr>
 

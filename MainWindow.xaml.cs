@@ -39,13 +39,25 @@ namespace DotNetWpfPrimer
             // load joke via API
             string URL_ICND = "http://api.icndb.com/jokes/random";
             HttpClient client = new HttpClient();
-            HttpResponseMessage response = await client.GetAsync( URL_ICND );
-            HttpContent content = response.Content;
-            {
-                string result = await content.ReadAsStringAsync();
-                RandomJoke randomJoke  = JsonConvert.DeserializeObject<RandomJoke>( result );
 
-                AppendTextField( randomJoke.value.joke );
+            // TODO add error handling for offline mode etc!
+
+            try
+            {
+                HttpResponseMessage response = await client.GetAsync( URL_ICND );
+                HttpContent content = response.Content;
+                {
+                    string result = await content.ReadAsStringAsync();
+                    RandomJoke randomJoke  = JsonConvert.DeserializeObject<RandomJoke>( result );
+
+                    AppendTextField( randomJoke.value.joke );
+                }
+            }
+            catch ( Exception exception )
+            {
+                Console.WriteLine( exception.Message );
+
+                AppendTextField( "No joke this time .. an error occurred: " + exception.Message );
             }
         }
 
