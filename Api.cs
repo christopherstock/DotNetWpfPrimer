@@ -7,22 +7,22 @@ namespace DotNetWpfPrimer
     /*******************************************************************************************************************
     *    Manages HTTP Requests and Responses.
     *******************************************************************************************************************/
-    public class Api
+    public abstract class Api
     {
-        /*******************************************************************************************************************
+        /***************************************************************************************************************
         *    Requests a random joke from the ICNDB and passes it to the closure when ready.
         *
         *    @param onJokeResponse Callback to invoke and pass the joke to.
-        *******************************************************************************************************************/
-        public async void RequestRandomJoke( Action<string> onJokeResponse )
+        ***************************************************************************************************************/
+        public static async void RequestRandomJoke( Action<string> onJokeResponse )
         {
             // load joke via API
-            HttpClient client = new HttpClient();
+            var client = new HttpClient();
 
             try
             {
-                HttpResponseMessage response = await client.GetAsync( GetRandomJokeURL() );
-                HttpContent content = response.Content;
+                var response = await client.GetAsync( GetRandomJokeUrl() );
+                var content = response.Content;
                 {
                     var result = await content.ReadAsStringAsync();
                     var randomJoke  = JsonConvert.DeserializeObject<RandomJoke>( result );
@@ -38,7 +38,12 @@ namespace DotNetWpfPrimer
             }
         }
 
-        public static string GetRandomJokeURL()
+        /***************************************************************************************************************
+        *    Receives the URL of the ICNDB that delivers a random joke.
+        *
+        *    @return The RandomJoke URL of the International Chuck Norris Database.
+        ***************************************************************************************************************/
+        public static string GetRandomJokeUrl()
         {
             return "http://api.icndb.com/jokes/random";
         }

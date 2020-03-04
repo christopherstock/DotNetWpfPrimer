@@ -19,27 +19,13 @@ namespace DotNetWpfPrimer
         }
 
         /***************************************************************************************************************
-        *    Being invoked when the system has initialized all components after
-        *    {@link #InitializeComponent} has been invoked.
-        ***************************************************************************************************************/
-        private void Window_Loaded( Object sender, RoutedEventArgs args )
-        {
-            Console.Out.WriteLine( "MainWindow.Window_Loaded being invoked" );
-        }
-
-        /***************************************************************************************************************
         *    Being invoked when the "Request a joke" button is clicked.
         ***************************************************************************************************************/
         private void MainButton_OnClick( object sender, RoutedEventArgs e )
         {
             Console.Out.WriteLine( "MainWindow.MainButton_OnClick being invoked" );
 
-            new Api().RequestRandomJoke(
-                response =>
-                {
-                    OnJokeResponse( response );
-                }
-            );
+            Api.RequestRandomJoke( OnJokeResponse );
         }
 
         /***************************************************************************************************************
@@ -59,7 +45,9 @@ namespace DotNetWpfPrimer
         ***************************************************************************************************************/
         private void AppendTextField( string msg )
         {
-            MainTextBlock.Text += ( msg + "\n" );
+            MainTextBlock.Text += msg;
+            MainTextBlock.Text += "\n";
+
             MainScroller.ScrollToEnd();
         }
     }
