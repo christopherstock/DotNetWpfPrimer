@@ -34,7 +34,7 @@ namespace DotNetWpfPrimer
         {
             Console.Out.WriteLine( "MainWindow.MainButton_OnClick being invoked" );
 
-            new Api().requestRandomJoke(
+            new Api().RequestRandomJoke(
                 response =>
                 {
                     OnJokeResponse( response );

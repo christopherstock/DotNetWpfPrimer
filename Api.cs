@@ -14,19 +14,18 @@ namespace DotNetWpfPrimer
         *
         *    @param onJokeResponse Callback to invoke and pass the joke to.
         *******************************************************************************************************************/
-        public async void requestRandomJoke( Action<string> onJokeResponse )
+        public async void RequestRandomJoke( Action<string> onJokeResponse )
         {
             // load joke via API
-            string URL_ICND = "http://api.icndb.com/jokes/random";
             HttpClient client = new HttpClient();
 
             try
             {
-                HttpResponseMessage response = await client.GetAsync( URL_ICND );
+                HttpResponseMessage response = await client.GetAsync( GetRandomJokeURL() );
                 HttpContent content = response.Content;
                 {
-                    string result = await content.ReadAsStringAsync();
-                    RandomJoke randomJoke  = JsonConvert.DeserializeObject<RandomJoke>( result );
+                    var result = await content.ReadAsStringAsync();
+                    var randomJoke  = JsonConvert.DeserializeObject<RandomJoke>( result );
 
                     onJokeResponse( randomJoke.value.joke );
                 }
@@ -37,6 +36,11 @@ namespace DotNetWpfPrimer
 
                 onJokeResponse( "No joke this time .. an error occurred: " + exception.Message );
             }
+        }
+
+        public static string GetRandomJokeURL()
+        {
+            return "http://api.icndb.com/jokes/random";
         }
     }
 }
