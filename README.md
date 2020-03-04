@@ -106,9 +106,11 @@ Nun können Sie im Ausgabefeld **TextBlock** gezielt den Witz ausgeben lassen.
 11. Nutzen Sie die folgenden Befehle zur Installation der folgenden Pakete um NUnit-Tests 
  innerhalb Ihres Projekts verwenden zu können:
 
-`dotnet add package NUnit`
-`dotnet add package NUnit3TestAdapter`
-`dotnet add package Microsoft.NET.Test.Sdk`
+```
+dotnet add package NUnit
+dotnet add package NUnit3TestAdapter
+dotnet add package Microsoft.NET.Test.Sdk
+```
 
 12. Testklassen können überall innerhalb unseres Projekts definiert werden. Wir wollen den folgenden Inhalt als neue
  Testklasse in `Tests/ApiTest.cs` zu unserem Projekt hinzufügen:
