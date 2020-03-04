@@ -22,10 +22,10 @@ namespace DotNetWpfPrimer
             try
             {
                 var response = await client.GetAsync( GetRandomJokeUrl() );
-                var content = response.Content;
+                var content  = response.Content;
                 {
-                    var result = await content.ReadAsStringAsync();
-                    var randomJoke  = JsonConvert.DeserializeObject<RandomJoke>( result );
+                    var result     = await content.ReadAsStringAsync();
+                    var randomJoke = JsonConvert.DeserializeObject<RandomJoke>( result );
 
                     onJokeResponse( randomJoke.value.joke );
                 }

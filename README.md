@@ -1,23 +1,27 @@
 
-# Microsoft C# .NET Core 101
+# C# .NET 101
 
 ![.NET](https://github.com/christopherstock/DotNetPrimer/raw/master/_ASSET/readme/logo_dotnet.png)
 
-Dieser Workshop behandelt die wichtigsten Grundlagen des Microsoft .NET Core Frameworks sowie der Programmiersprache C#.
- Mit Hilfe des CLI-Befehls **DotNet** aus dem .NET Core SDK und des .NET-Paketmanagers **NuGet** erstellen wir ein
- .NET-Projekt von Grund auf. Entwickelt wird eine kleine UI-Anwendung unter Verwendung der WPF Bibliothek
- (Windows Page Foundational classes (???) Framework), mit der auf Knopfdruck ein Witz aus der
- **International Chuck Norris Database** angefordert und in einem TextFeld unserer UI-Anwendung angezeigt wird.
- Für das Handling der HTTP-Request- u. -Responses soll eine moderne Bibliothek aus der **NuGet Gallery** verwendet werden.
- Für das Abdecken unserer Klassen mit Tests werden Unit-Tests aus dem Test-Framework **NUnit** eingesetzt.
+Dieser Workshop behandelt die wichtigsten Grundlagen des **Microsoft .NET Core Frameworks** sowie der Programmiersprache
+ **C#**. Mit Hilfe des CLI-Befehls **DotNet** aus dem **.NET Core SDK** und des **.NET-Paketmanagers NuGet** erstellen 
+ wir ein .NET-Projekt von Grund auf.
+ 
+Entwickelt wird eine kleine UI-Anwendung unter Verwendung des WPF-Frameworks (Windows Presentation Foundation), mit der
+ auf Knopfdruck ein Witz aus der **International Chuck Norris Database** angefordert und in einem TextFeld unserer 
+ UI-Anwendung angezeigt wird. Für das Handling der HTTP-Request- u. -Responses werden die nativen Klassen um
+ **System.Net.Http.HttpClient** verwendet. Das Überführen des JSON-Response-Bodies erfolgt mit der Bibliothek
+ **Newtonsoft.json** aus der *NuGet Gallery*. Hieraus installieren wir auch das Test-Framework **NUnit** um so unsere
+ Klassen mit Unit-Tests abdecken zu können.
 
 <hr>
 
 ## Tech Stack
 
-- .NET Core 3.1
+- .NET Core 3.0.3
 - NUnit 3.12.0
-- System.Net.Http 4.3.4
+- Microsoft.NET.Test.Sdk 16.5.0
+- NUnit3TestAdapter 3.16.1
 
 <hr>
 
