@@ -78,7 +78,7 @@ Die folgenden Aufgaben können im Rahmen eines Coding Dojos oder im Workshopform
  Chuck Norris Database** durchgeführt werden. Die entsprechende URL lautet `http://api.icndb.com/jokes/random`.
  Der gesamte Response-Body soll im **TextBlock** ausgegeben werden.
 
-![NuGet](https://github.com/christopherstock/DotNetWpfPrimer/raw/master/_ASSET/logo/logo_nuget.png)
+![NuGet](https://github.com/christopherstock/DotNetWpfPrimer/raw/master/_ASSET/logo/logo_NuGet.png)
 
 6. Der empfangene JSON-Body in Form eines Strings soll nun nicht direkt im **TextBlock** ausgegeben werden,
  sondern mittels der Bibliothek **Newtonsoft.json** über den **NuGet Package Manager** installiert werden.
