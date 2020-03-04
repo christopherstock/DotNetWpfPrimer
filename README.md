@@ -1,7 +1,7 @@
 
 # C# .NET 101
 
-![.NET](https://github.com/christopherstock/DotNetWpfPrimer/raw/master/_ASSET/logo/logo_dotNetCore.png)
+![.NET Core](https://github.com/christopherstock/DotNetWpfPrimer/raw/master/_ASSET/logo/logo_dotNetCore.png)
 
 Dieser Workshop behandelt die wichtigsten Grundlagen des **Microsoft .NET Core Frameworks** sowie der Programmiersprache
  **C#**. Mit Hilfe des CLI-Befehls **DotNet** aus dem **.NET Core SDK** und des **.NET-Paketmanagers NuGet** erstellen 
@@ -13,6 +13,15 @@ Entwickelt wird eine kleine UI-Anwendung unter Verwendung des WPF-Frameworks (Wi
  **System.Net.Http.HttpClient** verwendet. Das Überführen des JSON-Response-Bodies erfolgt mit der Bibliothek
  **Newtonsoft.json** aus der *NuGet Gallery*. Hieraus installieren wir auch das Test-Framework **NUnit** um so unsere
  Klassen mit Unit-Tests abdecken zu können.
+
+<hr>
+
+# Windows Only!
+
+![Windows Presentation Foundation](https://github.com/christopherstock/DotNetWpfPrimer/raw/master/_ASSET/logo/logo_wpf.png)
+
+Das **.NET Core Framework** ist zwar für alle Plattformen verfügbar, die nativen Klassen aus dem WPF-Framework aber leider
+ nur für Windows-Systeme **ab Windows 7** implementiert.
 
 <hr>
 
@@ -29,10 +38,12 @@ Entwickelt wird eine kleine UI-Anwendung unter Verwendung des WPF-Frameworks (Wi
 
 ### 1. DotNet-Projekt anlegen
 
-Erstellen Sie einen neuen Ordner mit einem beliebigen Namen für das Projekt. Wechseln Sie in diesen Ordner und
- initialisieren Sie ein neues Gradle-Projekt mit dem folgenden Befehl:
+Wechseln Sie auf der Konsole in Ihren Workspace und erstellen Sie ein neues WPF-Projekt mit dem folgenden Befehl.
+ Dabei wird auch ein neuer Ordner für das Projekt erstellt:
+ 
+`dotnet new wpf -o DotNetWpfPrimer`
 
-`gradle init`
+
 
 Bitte beantworten Sie die Rückfragen der Konsole wie folgt:
 
