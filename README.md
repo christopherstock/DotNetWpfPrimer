@@ -1,7 +1,7 @@
 
 # C# .NET 101
 
-![.NET](https://github.com/christopherstock/DotNetPrimer/raw/master/_ASSET/readme/logo_dotnet.png)
+![.NET](https://github.com/christopherstock/DotNetWpfPrimer/raw/master/_ASSET/logo/logo_dotNetCore.png)
 
 Dieser Workshop behandelt die wichtigsten Grundlagen des **Microsoft .NET Core Frameworks** sowie der Programmiersprache
  **C#**. Mit Hilfe des CLI-Befehls **DotNet** aus dem **.NET Core SDK** und des **.NET-Paketmanagers NuGet** erstellen 
