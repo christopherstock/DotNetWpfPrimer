@@ -36,7 +36,7 @@ Das **.NET Core Framework** ist zwar für alle Plattformen verfügbar, die nativ
 
 ## Projekt-Setup
 
-![Windows Presentation Foundation](https://github.com/christopherstock/DotNetWpfPrimer/raw/master/_ASSET/logo/icon_install.png)
+![Install](https://github.com/christopherstock/DotNetWpfPrimer/raw/master/_ASSET/logo/icon_install.png)
 
 ### 1. DotNet-Projekt anlegen
 
@@ -74,13 +74,13 @@ Die folgenden Aufgaben können im Rahmen eines Coding Dojos oder im Workshopform
 4. Beim Betätigen des Buttons soll eine Nachricht mit abschließendem Zeilenumbruch innerhalb des **TextBlocks**
  ausgegeben werden.
 
-5. Anstelle der ausgegebenen Nachricht soll nun beim Klick auf den Button ein HTTP GET-Request an die **International
+5. Anstelle der ausgegebenen Nachricht soll nun beim Klick auf den Button ein HTTP GET-Request auf die **International
  Chuck Norris Database** durchgeführt werden. Die entsprechende URL lautet `http://api.icndb.com/jokes/random`.
  Der gesamte Response-Body soll im **TextBlock** ausgegeben werden.
 
 ![NuGet](https://github.com/christopherstock/DotNetWpfPrimer/raw/master/_ASSET/logo/logo_NuGet.png)
 
-6. Der empfangene JSON-Body in Form eines Strings soll nun nicht direkt im **TextBlock** ausgegeben werden,
+6. Der empfangene JSON-Body in Form eines Strings soll nun nicht mehr direkt im **TextBlock** ausgegeben werden,
  sondern mittels der Bibliothek **Newtonsoft.json** über den **NuGet Package Manager** installiert werden.
  Hierfür muss im Projektverzeichnis der folgende Befehl ausgeführt werden:
 
