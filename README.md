@@ -129,7 +129,7 @@ Die folgenden Aufgaben können im Rahmen eines Coding Dojos oder im Workshopform
 
 Führen Sie alle Tests unterhalb **Tests** mit dem folgenden Befehl innerhalb dieses Verzeichnisses aus:
 
-`dotrun run all tests ?????`
+`dotnet test`
 
 8. Projektreferenz im Testprojekt hinzufügen
 `dotnet add reference ..\DotNetWpfPrimer.csproj`
