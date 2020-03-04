@@ -1,7 +1,5 @@
 ﻿using System;
-using System.Net.Http;
 using System.Windows;
-using Newtonsoft.Json;
 
 namespace DotNetWpfPrimer
 {
@@ -32,33 +30,26 @@ namespace DotNetWpfPrimer
         /***************************************************************************************************************
         *    Being invoked when the "Request a joke" button is clicked.
         ***************************************************************************************************************/
-        private async void MainButton_OnClick( object sender, RoutedEventArgs e )
+        private void MainButton_OnClick( object sender, RoutedEventArgs e )
         {
             Console.Out.WriteLine( "MainWindow.MainButton_OnClick being invoked" );
 
-            // load joke via API
-            string URL_ICND = "http://api.icndb.com/jokes/random";
-            HttpClient client = new HttpClient();
-
-            // TODO add error handling for offline mode etc!
-
-            try
-            {
-                HttpResponseMessage response = await client.GetAsync( URL_ICND );
-                HttpContent content = response.Content;
+            new Api().requestRandomJoke(
+                response =>
                 {
-                    string result = await content.ReadAsStringAsync();
-                    RandomJoke randomJoke  = JsonConvert.DeserializeObject<RandomJoke>( result );
-
-                    AppendTextField( randomJoke.value.joke );
+                    OnJokeResponse( response );
                 }
-            }
-            catch ( Exception exception )
-            {
-                Console.WriteLine( exception.Message );
+            );
+        }
 
-                AppendTextField( "No joke this time .. an error occurred: " + exception.Message );
-            }
+        /***************************************************************************************************************
+        *    Being invoked when the joke response arrives.
+        *
+        *    @param joke The received joke or error message as a string.
+        ***************************************************************************************************************/
+        private void OnJokeResponse( string joke )
+        {
+            AppendTextField( joke );
         }
 
         /***************************************************************************************************************

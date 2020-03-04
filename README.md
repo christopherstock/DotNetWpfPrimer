@@ -123,6 +123,10 @@ Die folgenden Aufgaben können im Rahmen eines Coding Dojos oder im Workshopform
 7. Tests erstellen:
 `dotnet new nunit`
 
+Führen Sie alle Tests unterhalb **Tests** mit dem folgenden Befehl innerhalb dieses Verzeichnisses aus:
+
+`dotrun run all tests ?????`
+
 8. Projektreferenz im Testprojekt hinzufügen
 `dotnet add reference ..\DotNetWpfPrimer.csproj`
 
@@ -137,3 +141,6 @@ Die folgenden Aufgaben können im Rahmen eines Coding Dojos oder im Workshopform
 10. Zeigen Sie den Witz im Ausgabefeld an.
 
 11. Lagern Sie die Funktionalität des Request- und des Response-Handlings in eine neue Klasse API aus.
+
+12. Im Fehlerfall ( API nicht erreichbar oder Client offline ) soll anstatt des Witzes eine generische Fehlermeldung
+ im Textfeld erscheinen.
